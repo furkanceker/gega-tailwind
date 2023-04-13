@@ -14,4 +14,12 @@
     a {
         @apply font-poppins;
     }
+
+    .link {
+        @apply col-span-2 hover:text-gega-melon transition duration-500;
+    }
+
+    .social-media {
+        @apply text-3xl hover:text-gega-melon duration-500 transition cursor-pointer;
+    }
 }
